@@ -1,0 +1,55 @@
+version 6.0
+if &cp | set nocp | endif
+let s:cpo_save=&cpo
+set cpo&vim
+nmap gx <Plug>NetrwBrowseX
+nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("^V<cWORD>"),0)^V^M
+let &cpo=s:cpo_save
+unlet s:cpo_save
+set backspace=indent,eol,start
+set cscopeprg=/usr/bin/cscope
+set cscopetag
+set cscopeverbose
+set fileencodings=utf-8,latin1
+set helplang=en
+set history=50
+set hlsearch
+set nomodeline
+set ruler
+set viminfo='20,\"50
+set list listchars=tab:\ \ ,trail:·
+set nowrap       "Don't wrap lines
+set linebreak    "Wrap lines at convenient points
+" set nu
+set ignorecase
+set smartcase
+set title
+set scrolloff=3
+set ruler
+set mouse=a
+
+" size of a hard tabstop
+set tabstop=4
+
+" size of an "indent"
+set shiftwidth=4
+
+" a combination of spaces and tabs are used to simulate tab stops at a width
+" other than the (hard)tabstop
+set softtabstop=4
+
+" make "tab" insert indents instead of tabs at the beginning of a line
+set smarttab
+
+" always uses spaces instead of tab characters
+" set expandtab
+
+set autoindent
+
+
+map <C-t> <Esc>:tabnew<CR>
+map <F7> <Esc>:tabp<CR>
+map <F8> <Esc>:tabn<CR>·
+map <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+map <F2> :set invpaste paste?<CR>
+" vim: set ft=vim :
