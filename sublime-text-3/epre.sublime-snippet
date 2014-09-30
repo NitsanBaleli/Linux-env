@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-echo '<br><pre>${1:debug text}: ' . print_r(${2:\$var}, true) . '<br></pre>';
+echo '<br><pre>${2:debug text}: ' . print_r(${2:\$var}, true) . '<br></pre>';
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>epre</tabTrigger>
