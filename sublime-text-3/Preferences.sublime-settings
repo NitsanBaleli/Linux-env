@@ -1,10 +1,19 @@
 {
-	"theme": "Spacegray Light.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"remember_open_files": false,
+	"spacegray_sidebar_font_xlarge": true,
 	"spacegray_tabs_font_large": true,
 	"spacegray_tabs_large": true,
-	"spacegray_sidebar_font_xlarge": true,
-
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"update_check": false,
+	"word_wrap": true,
+	"fade_fold_buttons": false,
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -12,16 +21,5 @@
 		".hg",
 		"CVS",
 		".sass-cache"
-	],
-	"font_size": 11,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"remember_open_files": false,
-	"tab_size": 2,
-	"theme": "Spacegray Eighties.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"update_check": false
+	]
 }

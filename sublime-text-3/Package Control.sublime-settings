@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"BracketHighlighter",
 		"Emmet",
 		"Emmet Css Snippets",
 		"Google Spell Check",
