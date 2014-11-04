@@ -18,8 +18,8 @@ set nomodeline
 set ruler
 set viminfo='20,\"50
 set list listchars=tab:\ \ ,trail:·
-set nowrap       "Don't wrap lines
-set linebreak    "Wrap lines at convenient points
+set nowrap       "Don't wrap lines"
+set linebreak    "Wrap lines at convenient points"
 " set nu
 set ignorecase
 set smartcase
