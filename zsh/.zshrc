@@ -50,7 +50,7 @@ export PATH=$PATH:/usr/lib/x86_64-linux-gnu/qt4/bin:/usr/local/sbin:/usr/local/b
 
 alias "zz"="source ~/.zshrc"
 alias "pp"="python -m SimpleHTTPServer"
-alias "ss"="subl . &"
+alias "ss"="sudo subl . &"
 alias "cc"="coffee -wc *.coffee"
 alias "nn"="npm install"
 alias "bb"="bower install"
