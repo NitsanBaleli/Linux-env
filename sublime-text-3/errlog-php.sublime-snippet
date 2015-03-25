@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-error_log("\n" . date('m/d/Y h:i:s', time()) . '>>>> ' . __LINE__ . '>>>> ' . print_r(\$${1:var}, true). "\n", 3, "/tmp/test-log.txt");
+error_log("\n" . date('m/d:h:i:s', time()) . '>> ' . __FILE__ . ':' . __LINE__ . '>> ' . print_r("\n  " . \$${1:var}, true). "\n", 3, "/tmp/test-log.txt");
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>errl</tabTrigger>
