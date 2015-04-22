@@ -57,10 +57,17 @@ alias "bb"="bower install"
 alias "nau"="nautilus . &"
 alias 'wm'="encfs ~/.encrypted ~/visible"
 alias 'wu'="fusermount -u ~/visible"
+alias 'gb'="git branch -a"
 
 function gitc() {
   git add -A && git commit -m "$1"
 }
+
+function gch() {
+  git checkout $1
+}
+
+
 
 source ~/z/z.sh
 JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre
