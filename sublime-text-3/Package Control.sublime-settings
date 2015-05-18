@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AutoFileName",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Emmet",
@@ -8,6 +9,7 @@
 		"Google Spell Check",
 		"JavaScript & Coffeescript Build Systems",
 		"Modific",
+		"rsub",
 		"Sass",
 		"Theme - Spacegray",
 		"TrailingSpaces"
